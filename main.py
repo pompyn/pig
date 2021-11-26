@@ -23,5 +23,6 @@ for word in words:
             the_rest = word[vowel_pos:]
             new_word = the_rest + cons + "ay"
             new_words.append(new_word)
-print(new_words)
+output = " ".join(new_words)
+print(output)
 
